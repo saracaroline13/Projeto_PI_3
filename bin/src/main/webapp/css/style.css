@@ -1,0 +1,168 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22/10/2020, 22:34:05
+    Author     : Lucas
+*/
+
+
+.teste {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    text-align: center;
+    color: white;
+    background: url(../imagens/chutando-a-bola-grande.jpg) no-repeat;
+    background-position: 30% 45%;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.welcome {
+    position: absolute; 
+    right: 550px; 
+    top: 50px;
+    font-weight: 400;
+}
+
+.titulo {
+    position: absolute; 
+    right: 338px; 
+    top: 150px;
+    font-weight: 320;
+}
+
+.novo-funcionario {
+    position: absolute; 
+    right: 410px; 
+    top: 200px;
+    border-color: green;
+}
+
+.listar-funcionario {
+    position: absolute; 
+    right: 410px; 
+    top: 255px;
+    border-color: green;
+}
+
+.novo-cliente {
+    position: absolute; 
+    right: 180px; 
+    top: 200px;
+    border-color: green;
+}
+
+.listar-cliente {
+    position: absolute; 
+    right: 180px; 
+    top: 255px;
+    border-color: green;
+}
+
+.novo-produto {
+    position: absolute; 
+    right: 410px; 
+    top: 345px;
+    border-color: green;
+}
+
+.listar-produtos {
+    position: absolute; 
+    right: 410px; 
+    top: 400px;
+    border-color: green;
+}
+
+.tabela-vendas {
+    position: absolute; 
+    right: 180px;
+    top: 345px;
+    border-color: green;
+}
+
+.tabela-relatorios {
+    position: absolute; 
+    right: 226px;
+    top: 500px;
+    border-color: green;
+}
+
+.sair {
+    position: absolute; 
+    top: 580px;
+    right: 630px;
+}
+
+footer {
+    position: absolute; 
+    top: 617px;
+    right: 430px;
+}
+
+a {
+    color: white;
+    font-weight: 400;
+}
+
+a:hover {
+	text-decoration: underline; 
+	color: gray;
+	}
+
+.f {
+    transform: rotate(-90deg);
+    position: absolute; 
+    right: 550px; 
+    top: 245px;
+    color: #9C9C9C;
+    font-weight: 450;
+}
+
+.c {
+    transform: rotate(-90deg);
+    position: absolute; 
+    right: 335px; 
+    top: 245px;
+    color: #9C9C9C;
+    font-weight: 450;
+}
+
+.p {
+    transform: rotate(-90deg);
+    position: absolute; 
+    right: 562px; 
+    top: 390px;
+    color: #9C9C9C;
+    font-weight: 450;
+}
+
+.v {
+    transform: rotate(-90deg);
+    position: absolute; 
+    right: 337px; 
+    top: 390px;
+    color: #9C9C9C;
+    font-weight: 450;
+}
+
+.r {
+    transform: rotate(-90deg);
+    position: absolute; 
+    right: 550px; 
+    top: 520px;
+    color: #9C9C9C;
+    font-weight: 450;
+}
+
+.opcao {
+    background-color: #006400;
+}
+

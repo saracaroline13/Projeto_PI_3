@@ -22,26 +22,24 @@ import java.util.logging.Logger;
  */
 public class UsuarioDAO {
     
-    public static Usuario getUsuario (String login) {
+    public static Usuario getUsuario (String login, String senha) {
         Usuario usuario = null;
         try {
             Connection con = ConexaoBD.getConexao();
-            String query = "select * from usuario where login =?";
+            String query = "select * from usuario where login =? and senha =?";
             PreparedStatement ps = con.prepareStatement(query);
             ps.setString(1, login);
-            
+            ps.setString(2, senha);
             ResultSet rs = ps.executeQuery();
             if (rs.next()) {
                
                 String nome = rs.getString("nome");
                 String perfil = rs.getString("perfil");
-                String senha = rs.getString("senha");
                
                 usuario = new Usuario();
                 usuario.setNome(nome);
                 usuario.setLogin(login);
                 usuario.setPerfil(perfil);
-                usuario.setSenha(senha);
                 
             }
 

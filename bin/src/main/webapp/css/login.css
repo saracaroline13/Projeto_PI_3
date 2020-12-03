@@ -1,0 +1,105 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13/11/2020, 22:51:14
+    Author     : Sara
+*/
+
+* {
+  padding:0;
+  margin:0;
+}
+
+/* imagem de fundo se ajusta a tela toda */
+.fundoLogin {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    text-align: center;
+    color: white;
+    background: url(../imagens/chutando-a-bola.jpg) no-repeat bottom center scroll;
+    background-position: 30% 45%;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+ /*slogan da empresa */ 
+ .slogan {
+     position: absolute; 
+     right: 550px; 
+     top: 10px;    
+ }
+
+ .login{
+     position: absolute; 
+     right: 610px; 
+     top: 150px;
+     color: white;
+     font-family: Courier New, monospace;
+     font-weight: lighter;
+ }
+ 
+ .usuario {
+     position: absolute; 
+     right: 760px; 
+     top: 210px;
+     color: white;
+     font-family: Courier New, monospace;
+     font-weight: lighter;
+     font-size:20px;
+ }
+ 
+ .senha {
+     position: absolute; 
+     right: 760px; 
+     top: 265px;
+     color: white;
+     font-family: Courier New, monospace;
+     font-weight: lighter;
+     font-size:20px;
+ }
+ 
+ .form-control1 {
+     position: absolute; 
+     right: 570px; 
+     top: 212px;
+     border-color: green;
+     opacity: 0.2;
+     width:175px;
+     height:20px;
+ }
+ 
+ .form-control2 {
+     position: absolute; 
+     right: 570px; 
+     top: 267px;
+     border-color: green;
+     opacity: 0.2;
+     width:175px;
+     height:20px;
+ }
+
+ .btn-primary {
+     position: absolute; 
+     right: 570px; 
+     top: 315px;
+     background-color: #112711;
+     color: white;
+     font-family: sans-serif;
+     font-weight: lighter;
+     width:80px;
+     height:30px;
+ }
+ 
+ .alert-danger {
+     position: absolute; 
+     right: 580px; 
+     top: 360px;
+ }
